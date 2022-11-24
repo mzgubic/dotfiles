@@ -1,0 +1,12 @@
+# set aliases
+alias l="ls -l -h"
+alias py="python3"
+alias jl="julia"
+
+export PS1='[\[\e[0;32m\]\u@\h\e[m] \W$ '
+
+export CLICOLOR=1
+export LSCOLORS=gxfxcxdxbxegedabagaced
+
+export PATH=/usr/local/opt/python3/libexec/bin:$PATH
+

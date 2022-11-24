@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Miha Zgubic
+	email = miha.zgubic@invenialabs.co.uk
+# Please adapt and uncomment the following lines:
+#	name = Miha Zgubic
+#	email = miha.zgubic@gmail.com
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[credential]
+	helper = osxkeychain
+[credential "https://gitlab.invenia.ca"]
+	username = miha.zgubic
+    helper = osxkeychain
+[github]
+    user = mzgubic
+[core]
+	excludesfile = /Users/mzgubic/.gitignore
+	hooksPath = /Users/mzgubic/.config/git/hooks
